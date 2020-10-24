@@ -1,0 +1,351 @@
+@media screen and (min-width: 1921px) {
+    #main {
+        background-size: 100%;
+        background-position: bottom center;
+    }
+
+    #description {
+        background-size: 100% 100%;
+    }
+
+    #info {
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 1229px) {
+    #reviews, .products {
+        width: 95%;
+    }
+
+    #stock .slick-next {
+        left: unset;
+        right: -25px;
+    }
+}
+
+/*1024-1199*/
+@media screen and (max-width: 1199px) {
+    #header, #titles, #features, #description-container, #stock, #addresses, #inst {
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+
+    #header {
+        flex-wrap: wrap;
+        padding-top: 20px;
+        justify-content: space-evenly;
+    }
+
+    #header #logo {
+        order: 1;
+    }
+
+    #header #menu {
+        order: 3;
+        width: 100%;
+    }
+
+    #header #menu ul {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    #header #action {
+        order: 2;
+    }
+
+    #features {
+        justify-content: space-evenly;
+    }
+
+    #description-container {
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #description-img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    #description-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #reviews .review {
+        margin: 0 10px;
+    }
+
+    #info {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #addresses-container .address-container .address {
+        width: auto;
+        max-width: 470px;
+    }
+
+    #addresses-container .address-container .address .address-text {
+        padding: 0 50px;
+    }
+}
+
+/*768-1023*/
+@media screen and (max-width: 1023px) {
+    #features .feature {
+        width: 300px;
+    }
+
+    #description-text #description-text-title {
+        margin-top: 50px;
+    }
+
+    .products .product .product-content-property:first-child {
+        margin-right: 20px;
+    }
+
+    #reviews .review {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #reviews .review .review-img {
+        margin-bottom: 15px;
+    }
+
+    #addresses-container {
+        flex-wrap: wrap;
+    }
+
+    #addresses-container .address-container {
+        margin: 15px 0;
+    }
+
+    #info {
+        background-size: auto 100%;
+    }
+}
+
+/*580-767*/
+@media screen and (max-width: 767px) {
+    #menu ul {
+        max-width: 100%;
+    }
+
+    #menu ul li {
+        list-style: none;
+    }
+
+    #titles-burger {
+        width: 500px;
+        font-size: 48px;
+    }
+
+    #titles-text {
+        font-size: 24px;
+    }
+
+    #description-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #description-text #description-text-title {
+        margin: 20px 0;
+    }
+
+    #description-text .description-text-words {
+        margin: 10px 0;
+        line-height: 18px;
+    }
+
+    #description-img {
+        margin: 0;
+        max-width: 350px;
+    }
+
+    .products .product .product-content-property {
+        width: 80px;
+        text-align: center;
+    }
+}
+
+/*480-579*/
+@media screen and (max-width: 579px) {
+    #burger {
+        display: inline;
+    }
+
+    #menu {
+        position: fixed;
+        top: 74px;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 3;
+        text-align: center;
+        width: 100%;
+        padding: 20px 0;
+        display: none;
+    }
+
+    #menu ul {
+        width: auto;
+        display: block;
+    }
+
+    #header {
+        position: relative;
+    }
+
+    #header.menu-open {
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    #header.menu-open #menu {
+        display: block;
+    }
+
+    #titles-burger {
+        width: 400px;
+        height: 120px;
+        line-height: 120px;
+        font-size: 38px;
+        margin: 0 auto;
+    }
+
+    #show-menu a.btn-yellow {
+        margin: 40px auto 0 auto;
+    }
+
+    #titles-text {
+        margin-top: 60px;
+        width: 350px;
+        font-size: 33px;
+    }
+
+    .products .product {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .products .product .product-img {
+        width: auto;
+        height: auto;
+        max-width: 300px;
+    }
+
+    .products .product .product-content {
+        text-align: center;
+    }
+
+    .products .product .product-content .product-content-title {
+        margin: 20px 0;
+    }
+
+    .products .product .product-content .product-content-properties {
+        justify-content: space-evenly;
+    }
+
+    .products-nav {
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    #info .block-title {
+        margin-top: 180px;
+    }
+
+    #reviews .review .review-text {
+        width: 100%;
+    }
+
+    #addresses h2.block-title {
+        margin-top: 80px;
+    }
+
+    #addresses-container .address-container .address .address-text {
+        padding: 0 30px;
+    }
+
+    #reservation #reserve {
+        justify-content: center;
+        margin: 5px 0;
+    }
+    #reservation-container {
+        overflow: scroll;
+        align-items: flex-start;
+        padding-top: 20px;
+    }
+    #reservation-container #reservation {
+        max-width: 310px;
+        padding: 35px;
+    }
+    #reserve-button {
+        margin-top: 20px;
+    }
+}
+
+/*480-499*/
+@media screen and (max-width: 499px) {
+    #header #action {
+        width: 100%;
+        text-align: center;
+    }
+
+    #header #menu {
+        top: 122px;
+    }
+
+    #titles-burger {
+        width: 280px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 28px;
+    }
+
+    #description .block-title {
+        padding-top: 120px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    #description #description-container #description-text {
+        width: 300px;
+    }
+    #description-text #description-text-title {
+        font-size: 26px;
+    }
+    #description-text .description-text-words {
+        width: 300px;
+    }
+
+    h2.block-title {
+        font-size: 28px;
+    }
+    #stock #category-container {
+        flex-wrap: wrap;
+    }
+    #addresses {
+        padding: 0;
+    }
+    #addresses-container .address-container .address .address-text span {
+        font-size: 15px;
+    }
+    #addresses-container .address-container .address .address-text {
+        padding: 0 10px;
+    }
+    #titles-text {
+        margin-left: 30px;
+        width: 250px;
+        font-size: 30px;
+    }
+}
+
+/*320-479*/
+@media screen and (max-width: 479px) {
+
+}
